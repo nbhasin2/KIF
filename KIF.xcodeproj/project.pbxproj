@@ -1131,6 +1131,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1707,6 +1708,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KIF;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -1724,6 +1726,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KIF;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Coverage;
 		};
@@ -1740,6 +1743,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KIF;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Release;
 		};
